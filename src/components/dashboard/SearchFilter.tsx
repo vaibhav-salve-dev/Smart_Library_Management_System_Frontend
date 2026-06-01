@@ -3,8 +3,6 @@ import { Search, Filter } from "lucide-react";
 interface Props {
   search: string;
   setSearch: (value: string) => void;
-  selectedGenre: string;
-  setSelectedGenre: (value: string) => void;
   fetchBooks: () => void;
 }
 
