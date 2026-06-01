@@ -18,7 +18,10 @@ function App() {
   useEffect(() => {
     const checkAuth = () => {
       const token = localStorage.getItem("token");
-      const isValid = token && token !== "undefined" && token !== "null";
+      const isValid =
+  !!token &&
+  token !== "undefined" &&
+  token !== "null";
       setIsAuthenticated(isValid);
       setLoading(false);
     };
