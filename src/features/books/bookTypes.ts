@@ -11,6 +11,7 @@ export interface Book {
   status: "available" | "borrowed";
 
   borrowedByCurrentUser?: boolean;
-
+isFavorite?: boolean;
+createdBy?: string;
   borrowedBy?: string;
 }
