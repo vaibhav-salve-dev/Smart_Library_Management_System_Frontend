@@ -34,7 +34,6 @@ interface FormErrors {
 }
 
 function Login() {
-  const navigate = useNavigate();
 
   const [form, setForm] = useState<LoginForm>({
     email: "",
