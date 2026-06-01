@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://smart-library-management-system-4g73.onrender.com",
 });
 
 
